@@ -1,4 +1,37 @@
-# Install instructions
+ # Genial, aquí tienes un guion de video con opción de compra de SEESE 6-Inch Mini Chainsaw with 2 Batteries (2000mAh) - Portable Electric Cordelss Saw for Wood Cutting, Trimming, Gardening, Camping - Seniors Friendly:
+ --- 
+##[Escena 1: 
+Gancho]##
+
+This is the **2024 edition** of the **six-inch chainsaw** and we're going to go over its features and how to operate it.
+
+##[Escena 2:
+ Contenido]##
+
+First, we'll charge the battery, connect it to the saw, and then insert the battery into the saw. It's right here in the middle. Next, assemble the saw. There's a chain cover at the back; just slide it out. The chain is right here; we'll leave it out for now as we're performing a test run. Now, we'll cover it back up. Once the chain has been installed, it's ready to go. The product includes **gloves**, a **safety goggle**, and a small **carrying bag**. One important note: when you open the case, you'll see a small switch right here, which you must slide all the way down to activate the chainsaw. This feature is to prevent children from accidentally turning it on. It also has a **safety feature** that prevents the chain from accidentally moving, which is this piece at the front. If you're looking to trim a branch, just slide it in. For thicker branches, place your foot there, just in case. Then, as you can see, the chain is moving, and it’s ready to go.
+
+##[Escena 3:
+á Llamado a la acción]##
+
+I hope this helps. If you have any questions, leave them down below in the comments.from googleapiclient.discovery import build
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.auth.transport.requests import Request
+
+# Crea un flujo de autenticación
+flow = InstalledAppFlow.from_client_secrets_file(
+    'credentials.json',
+    scopes=['https://www.googleapis.com/auth/documents']
+)
+
+# Autentica y crea un servicio de Google Docs
+creds = flow.run_local_server(port=0)
+service = build('docs', 'v1', credentials=creds)
+
+# Crea un nuevo documento
+document = service.documents().create().execute()
+
+# Imprime el ID del documento creado
+print(document.get('documentId'))
 
 There are multiple ways to install GCM on macOS, Windows, and Linux. Preferred
 installation methods for each OS are designated with a :star:.
@@ -218,8 +251,7 @@ to add the tools directory to your `PATH`.
 #### Install
 
 ```shell
-dotnet tool install -g git-credential-manager
-git-credential-manager configure
+dotnet tool install -avitsalex@gmail.com_configure_intall_app
 ```
 
 #### Update
@@ -228,7 +260,7 @@ git-credential-manager configure
 dotnet tool update -g git-credential-manager
 ```
 
-#### Uninstall
+#### Uninstall_app
 
 ```shell
 git-credential-manager unconfigure
